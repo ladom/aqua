@@ -5,6 +5,7 @@
 		<meta charset="UTF-8">
 		<title>Aquatech S.A.</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="reset.css">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 		<link rel="stylesheet" type="text/css" href="style.css">
@@ -14,32 +15,42 @@
 		
 		<!-- Main navigation bar -->
 
-		<section class="navbar">
-			<div class="container">
-				<nav class="nav navbar-default navbar-fixed-top navbar-responsive">
-					<div class="navbar-branch">
-						<img class="logo" src="aquatech_logo.png">
+		<section class="navbar aq_navbar">
+			<nav class="navbar navbar-fixed-top navbar-default navbar-right">
+				<div class="container">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+							<i class="fa fa-bars"></i>
+						</button>
+						<a class="navbar-branch" href="#">
+							<img class="logo" src="aquatech_logo.png">
+						</a>
 					</div>
-					<ul>
-						<li>O firmie</li>
-						<li>aktualności</li>
-						<li>Oferta
-							<ul>
-								<li>Oczyszczalnia ARGO</li>
-								<li>Oczyszczalnia BIOTIC</li>
-								<li>Oczyszczalnia VASA</li>
-								<li>Oczyszczalnia BIOTIC ROTO</li>
-								<li>Osadnik gnilny ZEUS</li>
-								<li>Przepompownia</li>
-								<li>Studnia chłonna</li>
-							</ul>
-						</li>
-						<li>Norma</li>
-						<li>Galeria</li>
-						<li>Kontakt</li>
-					</ul>
-				</nav>
-			</div>
+					<div class="collapse navbar-collapse navbar-right" id="navbar">
+						<ul class="nav navbar-nav">
+							<li><a href="#">O firmie</a></li>
+							<li><a href="#">Aktualności</a></li>
+							<li class="dropdown">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown">Oferta
+									<span class="fa fa-caret-down"><span>
+								</a>
+								<ul class="dropdown-menu">
+									<li><a href="#">Oczyszczalnia ARGO</a></li>
+									<li><a href="#">Oczyszczalnia BIOTIC</a></li>
+									<li><a href="#">Oczyszczalnia VASA</a></li>
+									<li><a href="#">Oczyszczalnia BIOTIC ROTO</a></li>
+									<li><a href="#">Osadnik gnilny ZEUS</a></li>
+									<li><a href="#">Przepompownia</a></li>
+									<li><a href="#">Studnia chłonna</a></li>
+								</ul>
+							</li>
+							<li><a href="#">Norma</a></li>
+							<li><a href="#">Galeria</a></li>
+							<li><a href="#">Kontakt</a></li>
+						</ul>
+					</div>
+				</div>
+			</nav>
 		</section>
 
 		<section class="carousel">
@@ -47,6 +58,13 @@
 				
 			</div>
 		</section>
+
+		<section class="idea">
+			
+		</section>
+	
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
 	</body>
 </html>
